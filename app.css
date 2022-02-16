@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 :root {
   --cl-primary-50: #feedd7;
   --cl-primary-100: #fddbaf;
@@ -39,4 +40,16 @@
   --cl-battelshipGrey-700: #5c5c5c;
   --cl-battelshipGrey-800: #474747;
   --cl-battelshipGrey-900: #333333;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.align-app-content {
+  width: min(1280px, 100%);
+}
+.nav-link {
+  color: #394149 !important;
+  font-weight: 500;
 }
