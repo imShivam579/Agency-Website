@@ -53,3 +53,9 @@
   color: #394149 !important;
   font-weight: 500;
 }
+.header-logos img {
+  width: 80%;
+}
+.bg-primarylight {
+  background-color: #dceaf5;
+}
