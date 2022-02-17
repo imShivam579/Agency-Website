@@ -76,9 +76,7 @@
 .cl-primary-800 {
   color: #0d1317;
 }
-.cl-battelshipGrey-200 {
-  color: var(--cl-battelshipGrey-200);
-}
+
 .brands-showcase span {
   color: rgba(57, 65, 73, 0.5);
 }
