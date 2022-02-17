@@ -94,3 +94,18 @@
   color: #f58a07;
   font-size: 2rem;
 }
+.img-bar {
+  position: absolute;
+  left: 2;
+  top: 0;
+  bottom: 0;
+  background: #f58a07;
+  mix-blend-mode: multiply;
+  width: 20%;
+  z-index: 2;
+  border-radius: 16px 0px 0px 16px;
+  -webkit-border-radius: 16px 0px 0px 16px;
+  -moz-border-radius: 16px 0px 0px 16px;
+  -ms-border-radius: 16px 0px 0px 16px;
+  -o-border-radius: 16px 0px 0px 16px;
+}
