@@ -1,0 +1,19 @@
+{
+  "helpSection": [
+    {
+      "title": "Business strategy",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,",
+      "imgURL": "./images/helpSection-img1.png"
+    },
+    {
+      "title": "Digitalization",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,",
+      "imgURL": "./images/helpSection-img2.png"
+    },
+    {
+      "title": "Risk assessment",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,",
+      "imgURL": "./images/helpSection-img3.png"
+    }
+  ]
+}
