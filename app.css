@@ -60,12 +60,12 @@
   background-color: #dceaf5;
 }
 
-.card img {
-  border-radius: 16px;
-  -webkit-border-radius: 16px;
-  -moz-border-radius: 16px;
-  -ms-border-radius: 16px;
-  -o-border-radius: 16px;
+.b-6 {
+  border-radius: 16px !important;
+  -webkit-border-radius: 16px !important;
+  -moz-border-radius: 16px !important;
+  -ms-border-radius: 16px !important;
+  -o-border-radius: 16px !important;
 }
 .cl-battelshipGrey-600 {
   color: #5b5b5b;
@@ -82,4 +82,14 @@
 .link {
   color: #f58a07;
   text-decoration: none;
+}
+.cl-primary {
+  color: #f58a07;
+}
+.bg-bluefaint {
+  background-color: #edf7ff;
+}
+.icon {
+  color: #f58a07;
+  font-size: 2rem;
 }

@@ -18,7 +18,7 @@ function showPosts(Posts) {
       <div class="card h-100 border-0">
       <img
         src="${imgURL}"
-        class="card-img-top"
+        class="card-img-top b-6"
         alt="${title}"
       />
       <div class="card-body px-0 py-4">
