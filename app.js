@@ -15,18 +15,18 @@ function showPosts(Posts) {
     const PostEl = document.createElement("div");
     PostEl.classList.add("col");
     PostEl.innerHTML = `
-      <div class="card h-100">
+      <div class="card h-100 border-0">
       <img
-        src="./images/helpSection-img1.png"
+        src="${imgURL}"
         class="card-img-top"
         alt="${title}"
       />
-      <div class="card-body">
-        <h5 class="card-title">${title}</h5>
-        <p class="card-text">
+      <div class="card-body px-0 py-4">
+        <h5 class="card-title cl-primary-900">${title}</h5>
+        <p class="card-text cl-battelshipGrey-600">
         ${description}
         </p>
-        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link link">Card link <i class="bi bi-arrow-right"></i></a>
       </div>
     </div>
           `;

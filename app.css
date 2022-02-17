@@ -56,6 +56,30 @@
 .header-logos img {
   width: 80%;
 }
-.bg-primarylight {
+.bg-bluelight {
   background-color: #dceaf5;
+}
+
+.card img {
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+.cl-battelshipGrey-600 {
+  color: #5b5b5b;
+}
+.cl-primary-900 {
+  color: #1d3444;
+}
+.cl-battelshipGrey-200 {
+  color: var(--cl-battelshipGrey-200);
+}
+.brands-showcase span {
+  color: rgba(57, 65, 73, 0.5);
+}
+.link {
+  color: #f58a07;
+  text-decoration: none;
 }
