@@ -73,6 +73,9 @@
 .cl-primary-900 {
   color: #1d3444;
 }
+.cl-primary-800 {
+  color: #0d1317;
+}
 .cl-battelshipGrey-200 {
   color: var(--cl-battelshipGrey-200);
 }

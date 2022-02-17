@@ -22,7 +22,7 @@ function showPosts(Posts) {
         alt="${title}"
       />
       <div class="card-body px-0 py-4">
-        <h5 class="card-title cl-primary-900">${title}</h5>
+        <h5 class="card-title cl-primary-800">${title}</h5>
         <p class="card-text cl-battelshipGrey-600">
         ${description}
         </p>
