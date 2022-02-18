@@ -90,6 +90,9 @@
 .bg-bluefaint {
   background-color: #edf7ff;
 }
+.bg-brand-primay {
+  background: #f58a07 !important;
+}
 .icon {
   color: #f58a07;
   font-size: 2rem;
@@ -128,11 +131,6 @@
   -o-transform: translateX(15%) translateY(-30%);
 }
 .tab {
-  border-radius: 25px !important;
-  -webkit-border-radius: 25px !important;
-  -moz-border-radius: 25px !important;
-  -ms-border-radius: 25px !important;
-  -o-border-radius: 25px !important;
   font-size: 14px !important;
 }
 @media screen and (max-width: 768px) {
@@ -144,4 +142,18 @@
   .tab {
     font-size: 12px !important;
   }
+}
+.dark-bg {
+  color: white;
+}
+button {
+  border-radius: 25px !important;
+  -webkit-border-radius: 25px !important;
+  -moz-border-radius: 25px !important;
+  -ms-border-radius: 25px !important;
+  -o-border-radius: 25px !important;
+}
+button.bg-white {
+  background-color: white;
+  color: #f58a07;
 }
