@@ -114,3 +114,27 @@
   height: 100%;
   object-fit: cover;
 }
+.ribbon {
+  position: absolute;
+  right: -1.6%;
+  top: -2.6%;
+  z-index: 2;
+}
+.tab {
+  border-radius: 25px !important;
+  -webkit-border-radius: 25px !important;
+  -moz-border-radius: 25px !important;
+  -ms-border-radius: 25px !important;
+  -o-border-radius: 25px !important;
+  font-size: 14px !important;
+}
+@media screen and (max-width: 768px) {
+  .ribbon {
+    width: 16vw;
+    right: -1%;
+    top: -0.9%;
+  }
+  .tab {
+    font-size: 12px !important;
+  }
+}
