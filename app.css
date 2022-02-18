@@ -1,49 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
-:root {
-  --cl-primary-50: #feedd7;
-  --cl-primary-100: #fddbaf;
-  --cl-primary-200: #fcca88;
-  --cl-primary-300: #fbb860;
-  --cl-primary-400: #faa638;
-  --cl-primary-500: #f99410;
-  --cl-primary-600: #db7e06;
-  --cl-primary-700: #b36705;
-  --cl-primary-800: #8b5004;
-  --cl-primary-900: #633903;
-  --cl-secondary-50: #e2ecf3;
-  --cl-secondary-100: #c5d9e7;
-  --cl-secondary-200: #a9c6db;
-  --cl-secondary-300: #8cb3cf;
-  --cl-secondary-400: #6fa0c3;
-  --cl-secondary-500: #528db7;
-  --cl-secondary-600: #42789e;
-  --cl-secondary-700: #366281;
-  --cl-secondary-800: #2a4c65;
-  --cl-secondary-900: #1e3648;
-  --cl-lightgrey-50: #e7ebee;
-  --cl-lightgrey-100: #cfd7dd;
-  --cl-lightgrey-200: #b7c3cc;
-  --cl-lightgrey-300: #a0afbb;
-  --cl-lightgrey-400: #889baa;
-  --cl-lightgrey-500: #708799;
-  --cl-lightgrey-600: #5d7383;
-  --cl-lightgrey-700: #4c5e6b;
-  --cl-lightgrey-800: #3b4954;
-  --cl-lightgrey-900: #2a343c;
-  --cl-battelshipGrey-50: #ebebeb;
-  --cl-battelshipGrey-100: #d6d6d6;
-  --cl-battelshipGrey-200: #c2c2c2;
-  --cl-battelshipGrey-300: #adadad;
-  --cl-battelshipGrey-400: #999999;
-  --cl-battelshipGrey-500: #858585;
-  --cl-battelshipGrey-600: #707070;
-  --cl-battelshipGrey-700: #5c5c5c;
-  --cl-battelshipGrey-800: #474747;
-  --cl-battelshipGrey-900: #333333;
-}
+
 * {
-  margin: 0;
-  padding: 0;
   font-family: "Poppins", sans-serif;
 }
 .align-app-content {
@@ -67,6 +24,7 @@
   -ms-border-radius: 16px !important;
   -o-border-radius: 16px !important;
 }
+/* color  */
 .cl-battelshipGrey-600 {
   color: #5b5b5b;
 }
@@ -76,6 +34,18 @@
 .cl-primary-800 {
   color: #0d1317;
 }
+.cl-primary {
+  color: #f58a07 !important;
+}
+.cl-blue-700 {
+  color: #063255;
+}
+.bg-bluefaint {
+  background-color: #edf7ff;
+}
+.bg-brand-primay {
+  background: #f58a07 !important;
+}
 
 .brands-showcase span {
   color: rgba(57, 65, 73, 0.5);
@@ -84,15 +54,7 @@
   color: #f58a07;
   text-decoration: none;
 }
-.cl-primary {
-  color: #f58a07;
-}
-.bg-bluefaint {
-  background-color: #edf7ff;
-}
-.bg-brand-primay {
-  background: #f58a07 !important;
-}
+
 .icon {
   color: #f58a07;
   font-size: 2rem;
@@ -165,4 +127,7 @@ button {
 button.bg-white {
   background-color: white;
   color: #f58a07;
+}
+.person-info span {
+  font-size: 14px;
 }
