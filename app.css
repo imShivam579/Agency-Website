@@ -146,6 +146,15 @@
 .dark-bg {
   color: white;
 }
+.light-bg h1,
+.light-bg h2,
+.light-bg h3 {
+  color: #0d1317;
+}
+.light-bg p,
+.light-bg span {
+  color: #5b5b5b;
+}
 button {
   border-radius: 25px !important;
   -webkit-border-radius: 25px !important;
