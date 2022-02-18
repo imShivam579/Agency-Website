@@ -203,8 +203,8 @@
         </div>
       </section>
       <!-- About Section  -->
-      <section class="container-fluid py-5">
-        <div class="container">
+      <section class="container-fluid py-5 mt-4 overflow-hidden">
+        <div class="container position-relative">
           <div class="row row-cols-2">
             <div class="text-wrapper col-12 col-md-6 py-4 py-md-5">
               <h2>
@@ -216,7 +216,7 @@
                 purus. Vivamus commodo suscipit tellus et pellentesque.
               </p>
               <div class="about-features-wrapper row row-cols-2 mt-5">
-                <div class="about-feature col">
+                <div class="about-feature col-12 col-sm-6">
                   <span class="h2 cl-primary"> 15+ </span>
                   <h5>Awards received</h5>
                   <p>
@@ -224,7 +224,7 @@
                     sit amet eros elit et.
                   </p>
                 </div>
-                <div class="about-feature col">
+                <div class="about-feature col-12 col-sm-6">
                   <span class="h2 cl-primary"> 500+ </span>
                   <h5>Clients served</h5>
                   <p>
@@ -234,10 +234,13 @@
                 </div>
               </div>
             </div>
-            <div
-              class="image-wrapper col-12 col-md-6 overflow-hidden b-6 position-relative"
-            >
+            <div class="image-wrapper col-12 col-md-6 position-relative">
               <div class="img-bar"></div>
+              <img
+                src="./images/Circle.svg"
+                alt=""
+                class="overlay-img overlay-img--circle"
+              />
               <img
                 class="img-fit-cover b-6"
                 src="./images/Aboutsection-Img.png"
@@ -316,7 +319,7 @@
             </div>
           </div>
           <img
-            class="ribbon"
+            class="overlay-img"
             src="./images/Ribbon.svg"
             alt=""
             type="image/svg"

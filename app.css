@@ -114,11 +114,18 @@
   height: 100%;
   object-fit: cover;
 }
-.ribbon {
+.overlay-img {
   position: absolute;
   right: -1.6%;
   top: -2.6%;
   z-index: 2;
+}
+.overlay-img--circle {
+  transform: translateX(15%) translateY(-30%);
+  -webkit-transform: translateX(15%) translateY(-30%);
+  -moz-transform: translateX(15%) translateY(-30%);
+  -ms-transform: translateX(15%) translateY(-30%);
+  -o-transform: translateX(15%) translateY(-30%);
 }
 .tab {
   border-radius: 25px !important;
@@ -129,7 +136,7 @@
   font-size: 14px !important;
 }
 @media screen and (max-width: 768px) {
-  .ribbon {
+  .overlay-img {
     width: 16vw;
     right: -1%;
     top: -0.9%;
