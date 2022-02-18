@@ -109,3 +109,8 @@
   -ms-border-radius: 16px 0px 0px 16px;
   -o-border-radius: 16px 0px 0px 16px;
 }
+.img-fit-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
