@@ -105,7 +105,8 @@
     font-size: 12px !important;
   }
 }
-.dark-bg {
+.dark-bg,
+.dark-bg a {
   color: white;
 }
 .light-bg h1,
@@ -130,4 +131,10 @@ button.bg-white {
 }
 .person-info span {
   font-size: 14px;
+}
+.bg-blueDark {
+  background: #063255;
+}
+a {
+  text-decoration: none !important;
 }
