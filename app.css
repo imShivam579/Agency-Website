@@ -14,7 +14,10 @@
 }
 .light-bg h1,
 .light-bg h2,
-.light-bg h3 {
+.light-bg h3,
+.light-bg h4,
+.light-bg h5,
+.light-bg h6 {
   color: #0d1317;
 }
 .light-bg p {
