@@ -3,6 +3,25 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+.brand-logo {
+  max-width: 140px;
+}
+/* background  */
+.light-bg,
+.light-bg a {
+  color: #394149 !important;
+}
+/* btn */
+a.bg-brand-primayfaint:hover {
+  color: white !important;
+  background-color: #f58a07 !important;
+}
+.bg-brand-primayfaint {
+  color: #f58a07 !important;
+  background: rgba(245, 138, 7, 0.1) !important;
+}
+
+/*  */
 .align-app-content {
   width: min(1280px, 100%);
 }
@@ -118,13 +137,7 @@
 .light-bg span {
   color: #5b5b5b;
 }
-button {
-  border-radius: 25px !important;
-  -webkit-border-radius: 25px !important;
-  -moz-border-radius: 25px !important;
-  -ms-border-radius: 25px !important;
-  -o-border-radius: 25px !important;
-}
+
 button.bg-white {
   background-color: white;
   color: #f58a07;
