@@ -27,7 +27,7 @@ function showHelpPosts(Posts) {
         <p class="card-text cl-battelshipGrey-600">
         ${description}
         </p>
-        <a href="#" class="card-link link">Card link <i class="bi bi-arrow-right"></i></a>
+        <a href="#" class="cl-primary">Card link <i class="bi bi-arrow-right"></i></a>
       </div>
     </div>
           `;
@@ -52,7 +52,7 @@ function showLatestPosts(Posts) {
         <p class="card-text cl-battelshipGrey-600">
         ${description}
         </p>
-        <a href="#" class="card-link link">Card link <i class="bi bi-arrow-right"></i></a>
+        <a href="#" class="cl-primary">Card link <i class="bi bi-arrow-right"></i></a>
       </div>
     </div>
           `;

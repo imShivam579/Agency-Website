@@ -15,19 +15,23 @@
 .light-bg h1,
 .light-bg h2,
 .light-bg h3 {
-  color: #0d1317 !important;
+  color: #0d1317;
 }
 .light-bg p {
-  color: #5b5b5b !important;
+  color: #5b5b5b;
 }
 .light-bg span {
-  color: rgba(57, 65, 73, 0.5) !important;
+  color: rgba(57, 65, 73, 0.5);
 }
 .light-bg,
 .light-bg a {
-  color: #394149 !important;
+  color: #394149;
 }
-
+/* background Colors */
+.bg-brand-primay {
+  background: #f58a07 !important;
+  color: white !important;
+}
 .bg-brand-primayfaint {
   color: #f58a07 !important;
   background: rgba(245, 138, 7, 0.1) !important;
@@ -35,11 +39,13 @@
 .bg-bluefaint {
   background-color: #edf7ff;
 }
-.bg-brand-primay {
-  background: #f58a07 !important;
-  color: white !important;
+.bg-bluelight {
+  background-color: #dceaf5;
 }
-/* btn */
+.bg-blueDark {
+  background: #063255;
+}
+/* btn, a */
 a.bg-brand-primayfaint:hover {
   color: white !important;
   background-color: #f58a07 !important;
@@ -54,21 +60,8 @@ a.cl-blue-900:hover {
 .fw-smbold {
   font-weight: 600 !important;
 }
-/*  */
-.align-app-content {
-  width: min(1280px, 100%);
-}
-.nav-link {
-  color: #394149 !important;
-  font-weight: 500;
-}
-.header-logos img {
-  width: 80%;
-}
-.bg-bluelight {
-  background-color: #dceaf5;
-}
 
+/* border */
 .b-6 {
   border-radius: 16px !important;
   -webkit-border-radius: 16px !important;
@@ -92,15 +85,6 @@ a.cl-blue-900:hover {
 .cl-blue-700 {
   color: #063255;
 }
-
-.brands-showcase span {
-  color: rgba(57, 65, 73, 0.5);
-}
-.link {
-  color: #f58a07;
-  text-decoration: none;
-}
-
 .icon {
   color: #f58a07;
   font-size: 2rem;
@@ -159,9 +143,7 @@ button.bg-white {
 .person-info span {
   font-size: 14px;
 }
-.bg-blueDark {
-  background: #063255;
-}
+
 a {
   text-decoration: none !important;
 }
