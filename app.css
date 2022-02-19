@@ -3,24 +3,57 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+/* Brand Logo  */
 .brand-logo {
   max-width: 140px;
 }
 /* background  */
+.dark-bg,
+.dark-bg a {
+  color: white;
+}
+.light-bg h1,
+.light-bg h2,
+.light-bg h3 {
+  color: #0d1317 !important;
+}
+.light-bg p {
+  color: #5b5b5b !important;
+}
+.light-bg span {
+  color: rgba(57, 65, 73, 0.5) !important;
+}
 .light-bg,
 .light-bg a {
   color: #394149 !important;
+}
+
+.bg-brand-primayfaint {
+  color: #f58a07 !important;
+  background: rgba(245, 138, 7, 0.1) !important;
+}
+.bg-bluefaint {
+  background-color: #edf7ff;
+}
+.bg-brand-primay {
+  background: #f58a07 !important;
+  color: white !important;
 }
 /* btn */
 a.bg-brand-primayfaint:hover {
   color: white !important;
   background-color: #f58a07 !important;
 }
-.bg-brand-primayfaint {
-  color: #f58a07 !important;
-  background: rgba(245, 138, 7, 0.1) !important;
+button.bg-brand-primay:hover {
+  background: #f89d2d !important;
 }
-
+a.cl-blue-900:hover {
+  color: #325771 !important;
+}
+/* font weight  */
+.fw-smbold {
+  font-weight: 600 !important;
+}
 /*  */
 .align-app-content {
   width: min(1280px, 100%);
@@ -47,8 +80,8 @@ a.bg-brand-primayfaint:hover {
 .cl-battelshipGrey-600 {
   color: #5b5b5b;
 }
-.cl-primary-900 {
-  color: #1d3444;
+.cl-blue-900 {
+  color: #1d3444 !important;
 }
 .cl-primary-800 {
   color: #0d1317;
@@ -58,12 +91,6 @@ a.bg-brand-primayfaint:hover {
 }
 .cl-blue-700 {
   color: #063255;
-}
-.bg-bluefaint {
-  background-color: #edf7ff;
-}
-.bg-brand-primay {
-  background: #f58a07 !important;
 }
 
 .brands-showcase span {
@@ -123,19 +150,6 @@ a.bg-brand-primayfaint:hover {
   .tab {
     font-size: 12px !important;
   }
-}
-.dark-bg,
-.dark-bg a {
-  color: white;
-}
-.light-bg h1,
-.light-bg h2,
-.light-bg h3 {
-  color: #0d1317;
-}
-.light-bg p,
-.light-bg span {
-  color: #5b5b5b;
 }
 
 button.bg-white {
