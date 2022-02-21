@@ -73,14 +73,8 @@ a.cl-blue-900:hover {
   -o-border-radius: 16px !important;
 }
 /* color  */
-.cl-battelshipGrey-600 {
-  color: #5b5b5b;
-}
 .cl-blue-900 {
   color: #1d3444 !important;
-}
-.cl-primary-800 {
-  color: #0d1317;
 }
 .cl-primary {
   color: #f58a07 !important;
