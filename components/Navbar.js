@@ -5,18 +5,15 @@ function Navbar() {
   navbar.innerHTML = "";
   const div = document.createElement("div");
   div.classList.add("container");
+  div.classList.add("justify-");
   div.innerHTML = `
-    <a class="navbar-brand" href="#">
-            <div class="brand-logo">
-              <a href="./index.html">
+    <a class="navbar-brand brand-logo" href="./index.html">
                 <img
                   class="img-fluid"
                   src="./images/BrandLogo-dark (2).svg"
                   alt=""
                   srcset=""
                 />
-              </a>
-            </div>
           </a>
           <button
             class="navbar-toggler rounded-pill"

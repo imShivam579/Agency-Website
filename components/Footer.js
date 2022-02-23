@@ -57,7 +57,7 @@ function Footer() {
             placeholder="Type email here"
             required
           />
-          <button type="button" class="btn btn-warning rounded-pill">
+          <button type="button" class="btn btn-warning rounded-pill bg-brand-primay">
             Subscribe
           </button>
         </form>
