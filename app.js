@@ -1,14 +1,14 @@
-const Data_URL = "./appData.json";
+// const Data_URL = "./appData.json";
 const helpPostSection = document.querySelector(".help-posts-wrapper");
 const latestPostSection = document.getElementById("blogItemsContainer");
 
-getPosts(Data_URL);
-async function getPosts(url) {
-  const responce = await fetch(url);
-  const data = await responce.json();
-  showHelpPosts(data.helpSection);
-  showLatestPosts(data.latestBlogPosts);
-}
+// getPosts(Data_URL);
+// async function getPosts(url) {
+//   const responce = await fetch(url);
+//   const data = await responce.json();
+//   showHelpPosts(data.helpSection);
+//   showLatestPosts(data.latestBlogPosts);
+// }
 function showHelpPosts(Posts) {
   helpPostSection.innerHTML = "";
   Posts.forEach((Post) => {
