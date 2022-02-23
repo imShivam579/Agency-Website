@@ -78,7 +78,7 @@ a.cl-blue-900:hover {
   color: #1d3444 !important;
 }
 .cl-primary {
-  color: #f58a07;
+  color: #f58a07 !important;
 }
 .cl-blue-700 {
   color: #063255;
@@ -144,4 +144,7 @@ button.bg-white {
 
 a {
   text-decoration: none !important;
+}
+.nav-link {
+  font-weight: 500;
 }
