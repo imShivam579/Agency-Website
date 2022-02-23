@@ -1,7 +1,9 @@
 [
   {
     "name": "helpPosts",
-    "PostsWrapper": [
+    "title": "We help more than 1500 companies from all sectors",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus commodo suscipit tellus et pellentesque.",
+    "PostsObject": [
       {
         "title": "Business strategy",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,",
@@ -21,7 +23,8 @@
   },
   {
     "name": "latestBlogAndNews",
-    "PostsWrapper": [
+    "title": "Latest Blog And News",
+    "PostsObject": [
       {
         "title": "Why you have to digitalize in 2021",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,",
