@@ -8,12 +8,14 @@ function Navbar() {
   div.innerHTML = `
     <a class="navbar-brand" href="#">
             <div class="brand-logo">
-              <img
-                class="img-fluid"
-                src="./images/BrandLogo-dark (2).svg"
-                alt=""
-                srcset=""
-              />
+              <a href="./index.html">
+                <img
+                  class="img-fluid"
+                  src="./images/BrandLogo-dark (2).svg"
+                  alt=""
+                  srcset=""
+                />
+              </a>
             </div>
           </a>
           <button
@@ -33,7 +35,7 @@ function Navbar() {
           >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#"
+                <a class="nav-link " aria-current="page" href="./aboutUs.html"
                   >About Us</a
                 >
               </li>
