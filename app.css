@@ -26,9 +26,11 @@
 .light-bg span {
   color: rgba(57, 65, 73, 0.5);
 }
-.light-bg,
-.light-bg a {
+.light-bg {
   color: #394149;
+}
+.light-bg a {
+  color: #f58a07;
 }
 /* background Colors */
 .bg-brand-primay {

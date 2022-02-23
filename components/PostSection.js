@@ -19,6 +19,8 @@ function showPostSection(data) {
     const categoryData = data.find((category) => {
       return category.name === categoryName;
     });
+    // destructuring category data from categoryData
+    const { title, description, PostsObject } = categoryData;
     //creating html structure
     // creating container
     const sectionContainer = document.createElement("div");
@@ -32,32 +34,30 @@ function showPostSection(data) {
     textWrapper.classList.add("col-12", "col-sm-10", "col-md-8", "col-lg-7");
     textWrapper.innerHTML = `
     <h2 class="cl-blue-900">
-                We help more than 1500 companies from all sectors
+                ${title}
               </h2>
               <p class="mt-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Curabitur sit amet eros blandit, hendrerit elit et, mattis
-                purus. Vivamus commodo suscipit tellus et pellentesque.
+                ${description}
               </p>
     `;
-    // creating textWrapper inside row (container > row > postWrapper )
+    // creating PostWrapper inside row (container > row > postWrapper )
     const PostWrapper = document.createElement("div");
-    PostWrapper.classList.add(
+    PostWrapper.classList.add("col-12");
+    const postWrapperRow = document.createElement("div");
+    postWrapperRow.classList.add(
       "row",
       "row-cols-1",
       "row-cols-sm-2",
       "row-cols-md-3",
-      "mt-3",
-      "gy-4"
+      "mt-3"
     );
-    PostWrapper.innerHTML = ``;
     const postObj = categoryData.PostsObject;
     postObj.forEach((post) => {
       const { title, imgURL, description } = post;
       const PostEl = document.createElement("div");
       PostEl.classList.add("col");
       PostEl.innerHTML = `
-      <div class="card h-100 border-0">
+      <div class="card h-100 border-0 bg-transparent">
       <img
         src="${imgURL}"
         class="card-img-top b-6"
@@ -68,12 +68,13 @@ function showPostSection(data) {
         <p class="card-text cl-battelshipGrey-600">
         ${description}
         </p>
-        <a href="#" class="cl-primary">Card link <i class="bi bi-arrow-right"></i></a>
+        <a href="#" class="">Card link <i class="bi bi-arrow-right"></i></a>
       </div>
     </div>
           `;
-      PostWrapper.appendChild(PostEl);
+      postWrapperRow.appendChild(PostEl);
     });
+    PostWrapper.appendChild(postWrapperRow);
     row.appendChild(textWrapper);
     row.appendChild(PostWrapper);
     sectionContainer.appendChild(row);

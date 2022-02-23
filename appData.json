@@ -24,6 +24,7 @@
   {
     "name": "latestBlogAndNews",
     "title": "Latest Blog And News",
+    "description": "",
     "PostsObject": [
       {
         "title": "Why you have to digitalize in 2021",
