@@ -84,7 +84,8 @@ a.bg-brand-primayfaint:hover {
   color: white !important;
   background-color: #f58a07 !important;
 }
-button.bg-brand-primay:hover {
+button.bg-brand-primay:hover,
+a.bg-brand-primay:hover {
   background: #f89d2d !important;
 }
 a.cl-blue-900:hover {
@@ -141,15 +142,10 @@ a.cl-blue-900:hover {
   object-fit: cover;
   /* max-height: 560px; */
 }
-.overlay-img {
-  position: absolute;
+
+.p-tr {
   right: -3.6%;
   top: -5.6%;
-  z-index: 2;
-}
-.p-tr {
-  right: -1.6%;
-  top: -2.6%;
   z-index: 2;
 }
 .p-br {
@@ -159,6 +155,10 @@ a.cl-blue-900:hover {
 }
 .overlay-img--circle {
   width: 5rem;
+}
+.overlay-img--ribbon {
+  right: -1.6%;
+  top: -2.6%;
 }
 .tab {
   font-size: 14px !important;
@@ -172,7 +172,13 @@ a.cl-blue-900:hover {
   .overlay-img--circle {
     width: 16vw;
   }
-  .p-br {
+  .overlay-img--ribbon {
+    width: 16vw;
+    right: -2%;
+    top: -1.2%;
+  }
+  .p-br,
+  .p-tr {
     right: -2.6%;
   }
   .tab {
@@ -180,7 +186,8 @@ a.cl-blue-900:hover {
   }
 }
 @media screen and (max-width: 620px) {
-  .p-br {
+  .p-br,
+  .p-tr {
     right: -0.6%;
   }
 }
