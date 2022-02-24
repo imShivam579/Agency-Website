@@ -143,16 +143,22 @@ a.cl-blue-900:hover {
 }
 .overlay-img {
   position: absolute;
+  right: -3.6%;
+  top: -5.6%;
+  z-index: 2;
+}
+.p-tr {
   right: -1.6%;
   top: -2.6%;
   z-index: 2;
 }
+.p-br {
+  right: -3.6%;
+  bottom: -5.6%;
+  z-index: 2;
+}
 .overlay-img--circle {
-  transform: translateX(15%) translateY(-30%);
-  -webkit-transform: translateX(15%) translateY(-30%);
-  -moz-transform: translateX(15%) translateY(-30%);
-  -ms-transform: translateX(15%) translateY(-30%);
-  -o-transform: translateX(15%) translateY(-30%);
+  width: 5rem;
 }
 .tab {
   font-size: 14px !important;
