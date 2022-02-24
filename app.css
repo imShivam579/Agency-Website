@@ -7,6 +7,35 @@
 .brand-logo {
   max-width: 140px;
 }
+.team-post {
+  cursor: pointer;
+}
+.team-post:hover .team-detail {
+  transform: translateY(0%);
+  -webkit-transform: translateY(0%);
+  -moz-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  -o-transform: translateY(0%);
+}
+.team-detail {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 70%;
+  background: #161616da;
+  transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+  transition: transform ease-in-out 500ms;
+  -webkit-transition: transform ease-in-out 500ms;
+  -moz-transition: transform ease-in-out 500ms;
+  -ms-transition: transform ease-in-out 500ms;
+  -o-transition: transform ease-in-out 500ms;
+}
+
 /* background  */
 .dark-bg,
 .dark-bg a {
@@ -75,6 +104,9 @@ a.cl-blue-900:hover {
   -o-border-radius: 16px !important;
 }
 /* color  */
+.cl-white {
+  color: white !important;
+}
 .cl-blue-900 {
   color: #1d3444 !important;
 }
@@ -105,7 +137,7 @@ a.cl-blue-900:hover {
 }
 .img-fit-cover {
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   max-height: 560px;
 }
