@@ -137,9 +137,9 @@ a.cl-blue-900:hover {
 }
 .img-fit-cover {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
-  max-height: 560px;
+  /* max-height: 560px; */
 }
 .overlay-img {
   position: absolute;
@@ -169,11 +169,21 @@ a.cl-blue-900:hover {
     right: -1%;
     top: -0.9%;
   }
+  .overlay-img--circle {
+    width: 16vw;
+  }
+  .p-br {
+    right: -2.6%;
+  }
   .tab {
     font-size: 12px !important;
   }
 }
-
+@media screen and (max-width: 620px) {
+  .p-br {
+    right: -0.6%;
+  }
+}
 button.bg-white {
   background-color: white;
   color: #f58a07;
