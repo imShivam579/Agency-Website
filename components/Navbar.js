@@ -40,7 +40,7 @@ function Navbar() {
                 <a class="nav-link" href="#">Carrers</a>
               </li>
               <li class="nav-item ms-md-1">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="./service.html">Services</a>
               </li>
               <li class="nav-item ms-md-1">
                 <a class="nav-link" href="#">Blog</a>
