@@ -42,5 +42,35 @@
         "imgURL": "./images/blogSection-img3.png"
       }
     ]
+  },
+  {
+    "name": "headersData",
+    "AbtUsData": {
+      "title": "We value human, organizational, and operational intelligence, not just artificial",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,",
+      "CTAtext": "Work With Us",
+      "IMG_URL": "./images/",
+      "IMG_bar": true,
+      "IMG_overlay": true,
+      "IMG_overlayPosition": "top-right"
+    },
+    "serviceData": {
+      "title": "We serve clients with ground breaking solutions",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,",
+      "CTAtext": "Work With Us",
+      "IMG_URL": "./images/",
+      "IMG_bar": true,
+      "IMG_overlay": true,
+      "IMG_overlayPosition": "right-up"
+    },
+    "careerData": {
+      "title": "We hired people who are very passionate about what they do",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,",
+      "CTAtext": "View Positions",
+      "IMG_URL": "./images/",
+      "IMG_bar": true,
+      "IMG_overlay": true,
+      "IMG_overlayPosition": "right-up"
+    }
   }
 ]
