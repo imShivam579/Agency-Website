@@ -1,6 +1,3 @@
-const Data_URL = "../appData.json";
-const postsSection = document.querySelectorAll("[data-posts-category]");
-
 getPosts(Data_URL);
 async function getPosts(url) {
   const responce = await fetch(url);

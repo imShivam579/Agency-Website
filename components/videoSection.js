@@ -1,5 +1,3 @@
-const videoSection = document.getElementById("videoSection");
-
 showReview();
 function showReview() {
   videoSection.innerHTML = "";

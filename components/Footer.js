@@ -1,4 +1,3 @@
-const footer = document.getElementById("footer");
 Footer();
 function Footer() {
   const div = document.createElement("div");
