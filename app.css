@@ -149,8 +149,8 @@ a.cl-blue-900:hover {
   z-index: 2;
 }
 .p-br {
-  right: -3.6%;
-  bottom: -5.6%;
+  right: -0.8%;
+  bottom: -4.6%;
   z-index: 2;
 }
 .overlay-img--circle {
@@ -159,6 +159,12 @@ a.cl-blue-900:hover {
 .overlay-img--ribbon {
   right: -1.6%;
   top: -2.6%;
+}
+.overlay-img--cubeLg {
+  width: 30%;
+  height: 30%;
+  background: #f58a07;
+  mix-blend-mode: multiply;
 }
 .tab {
   font-size: 14px !important;
