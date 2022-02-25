@@ -84,9 +84,6 @@ function showPostSection(data) {
     currentSection.appendChild(sectionContainer);
   });
 }
-function showPosts(postsObj) {
-  postsObj.forEach((post) => {});
-}
 
 // Video section
 showReview();
