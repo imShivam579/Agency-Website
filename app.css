@@ -146,7 +146,6 @@ a.cl-blue-900:hover {
 .p-tr {
   right: -3.6%;
   top: -5.6%;
-  z-index: 2;
 }
 .p-ru {
   right: -3.6%;
@@ -155,7 +154,10 @@ a.cl-blue-900:hover {
 .p-br {
   right: -0.8%;
   bottom: -4.6%;
-  z-index: 2;
+}
+.p-lu {
+  left: -6.5%;
+  top: 10%;
 }
 .overlay-img--circle {
   width: 5rem;
@@ -167,6 +169,12 @@ a.cl-blue-900:hover {
 .overlay-img--cubeLg {
   width: 30%;
   height: 30%;
+  background: #f58a07;
+  mix-blend-mode: multiply;
+}
+.overlay-img--cubeSm {
+  width: 15%;
+  height: 15%;
   background: #f58a07;
   mix-blend-mode: multiply;
 }
