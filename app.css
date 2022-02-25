@@ -151,6 +151,10 @@ a.cl-blue-900:hover {
   right: -3.6%;
   top: 10%;
 }
+.p-rc {
+  right: -6.5%;
+  top: 50%;
+}
 .p-br {
   right: -0.8%;
   bottom: -4.6%;
@@ -158,6 +162,14 @@ a.cl-blue-900:hover {
 .p-lu {
   left: -6.5%;
   top: 10%;
+}
+.p-lc {
+  left: -6.5%;
+  top: 50%;
+}
+.p-ld {
+  left: -6.5%;
+  bottom: 10%;
 }
 .overlay-img--circle {
   width: 5rem;
