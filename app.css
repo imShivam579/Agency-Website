@@ -179,10 +179,12 @@ a.cl-blue-900:hover {
   top: -2.6%;
 }
 .overlay-img--cubeLg {
-  width: 30%;
-  height: 30%;
+  width: 23%;
+  height: 23%;
   background: #f58a07;
   mix-blend-mode: multiply;
+  right: -0.1%;
+  bottom: -0.6%;
 }
 .overlay-img--cubeSm {
   width: 15%;
