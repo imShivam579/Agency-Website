@@ -106,7 +106,7 @@
         <div class="container">
           <h1>Apply Now</h1>
           <div class="mt-5">
-            <form class="row g-3">
+            <form class="row g-3" action="">
               <div class="col-12">
                 <div class="row row-cols-2 g-3">
                   <div class="form-floating col-12 col-md-6">
@@ -164,7 +164,8 @@
               </div>
               <div class="col-12 pt-3">
                 <button
-                  type="button"
+                  id="applyFormSubmitBtn"
+                  type="submit"
                   class="btn btn-warning rounded-pill bg-brand-primay px-5 py-2"
                 >
                   Submit
@@ -174,6 +175,11 @@
           </div>
         </div>
       </div>
+      <!-- Footer  -->
+      <footer
+        id="footer"
+        class="container-fluid bg-blueDark py-5 dark-bg"
+      ></footer>
     </div>
     <!-- Bootstrap CDN link  -->
     <script
@@ -187,24 +193,3 @@
     <script src="./components/Footer.js"></script>
   </body>
 </html>
-<!-- <div class="col-12">
-    <div class="row row-cols-2 g-3">
-      <div class="form-floating col-12 col-md-6">
-        <input
-          class="form-control border-0 bg-blue-200 rounded-pill px-3"
-          type="email"
-          placeholder="Email Id"
-        />
-        <label class="ms-3" for="floatingInput"
-          >Email address</label
-        >
-      </div>
-      <div class="col-12 col-md-6">
-        <input
-          class="form-control rounded-pill"
-          type="number"
-          placeholder="Mobile Number"
-        />
-      </div>
-    </div>
-  </div> -->
