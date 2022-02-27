@@ -22,6 +22,47 @@
     <div class="app">
       <!-- Navbar  -->
       <nav id="navbar" class="navbar navbar-expand-md navbar-light"></nav>
+      <!-- Header  -->
+      <div class="container-fluid py-4 py-md-5 light-bg overflow-hidden">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-md-5 col-lg-6 py-3">
+              <div class="pt-lg-5">
+                <h1 class="cl-blue-900 mt-3">
+                  We serve clients with ground breaking solutions
+                </h1>
+                <p class="my-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique
+                </p>
+              </div>
+              <div class="mt-4">
+                <button
+                  type="button"
+                  class="btn btn-warning my-2 rounded-pill bg-brand-primay"
+                >
+                  Work With Us
+                </button>
+              </div>
+            </div>
+            <div class="col-md-7 col-lg-6 position-relative">
+              <div class="img-bar"></div>
+
+              <img
+                src="./images/Circle.svg"
+                alt=""
+                class="overlay-img--circle p-ru position-absolute"
+              />
+              <img
+                class="img-fit-cover b-6"
+                src="./images/headerImg-Serv.png"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- Latest Section  -->
       <section
         data-posts-category="latestBlogAndNews"
@@ -30,7 +71,7 @@
       <!-- Footer  -->
       <footer
         id="footer"
-        class="container-fluid bg-blueDark py-5 dark-bg mt-5"
+        class="container-fluid bg-blueDark py-5 dark-bg"
       ></footer>
     </div>
     <!-- Bootstrap CDN link  -->
@@ -41,5 +82,9 @@
     ></script>
     <!--  App.js file -->
     <script src="./app.js"></script>
+    <!--  Component : Footer -->
+    <script src="./components/Footer.js"></script>
+    <!--  Component : Posts -->
+    <script src="./components/Posts.js"></script>
   </body>
 </html>
