@@ -73,6 +73,9 @@
 .bg-bluefaint {
   background-color: #edf7ff !important;
 }
+.bg-blue-200 {
+  background: rgba(210, 218, 237, 0.17) !important;
+}
 .bg-bluelight {
   background-color: #dceaf5;
 }
@@ -236,4 +239,7 @@ a {
 }
 .nav-link {
   font-weight: 500;
+}
+form label {
+  color: #9c9c9c;
 }
