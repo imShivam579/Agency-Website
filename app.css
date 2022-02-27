@@ -71,7 +71,7 @@
   background: rgba(245, 138, 7, 0.1) !important;
 }
 .bg-bluefaint {
-  background-color: #edf7ff;
+  background-color: #edf7ff !important;
 }
 .bg-bluelight {
   background-color: #dceaf5;
