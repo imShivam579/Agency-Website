@@ -192,7 +192,7 @@ a.cl-blue-900:hover {
   background: #f58a07;
   mix-blend-mode: multiply;
 }
-.tab {
+.fs-7 {
   font-size: 14px !important;
 }
 @media screen and (max-width: 768px) {
