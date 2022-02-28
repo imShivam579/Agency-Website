@@ -49,7 +49,8 @@
 .light-bg h6 {
   color: #0d1317;
 }
-.light-bg p {
+.light-bg p,
+.light-bg li {
   color: #5b5b5b;
 }
 .light-bg span {
