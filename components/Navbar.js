@@ -37,16 +37,16 @@ function Navbar() {
                 >
               </li>
               <li class="nav-item ms-md-1">
-                <a class="nav-link" href="#">Carrers</a>
+                <a class="nav-link" href="./careers.html">Carrers</a>
               </li>
               <li class="nav-item ms-md-1">
                 <a class="nav-link" href="./service.html">Services</a>
               </li>
               <li class="nav-item ms-md-1">
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="./Blog.html">Blog</a>
               </li>
               <li class="nav-item mx-md-1">
-                <a class="nav-link" href="#">Contact us</a>
+                <a class="nav-link" href="./contact.html">Contact us</a>
               </li>
             </ul>
             <a
