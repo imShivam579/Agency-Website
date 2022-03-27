@@ -1,6 +1,6 @@
 # Responsive Agency website template for community.
 
-This is an template website build using HTML, CSS on top of **Bootstrap5** and **Javascript**. This repository contains all the code you need to start using this template.
+It's a website template built using HTML, CSS on top of Bootstrap5 and Javascript. This repository contains all the code you need to start using this template.
 
 [**View Live Preview**](https://imshivam579.github.io/Agency-Website/)
 
