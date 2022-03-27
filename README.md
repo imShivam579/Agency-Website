@@ -32,6 +32,6 @@ I'd love to see the sites you create using this little tool.
 
 ## License
 
-[MIT License]()
+[MIT License](/LICENCE)
 
 ## [ I appreciate if you give appropriate credit when using this Website for Commercial Use 💖🤗 ]
