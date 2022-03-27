@@ -1,4 +1,5 @@
 getPosts(Data_URL);
+
 async function getPosts(url) {
   const responce = await fetch(url);
   const data = await responce.json();
@@ -65,7 +66,7 @@ function showPostSection(data) {
         <p class="card-text cl-battelshipGrey-600">
         ${description}
         </p>
-        <a href="#" class="">Card link <i class="bi bi-arrow-right"></i></a>
+        <a href="./BlogInner.html" class="">Card link <i class="bi bi-arrow-right"></i></a>
       </div>
     </div>
           `;
